@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.header{
+	height: 100px;
+	width: 1000px;
+	border: 5px solid black;
+	margin: auto;
+}
+
+.button{
+	height: 80px;
+	line-height: 80px;
+	width: 200px;
+	border: 5px solid black;
+	margin: 5px 18px;
+	display: inline-block;
+	text-align: center;
+}
+
+#Warning{
+	border: 5px solid red;
+	background-color: pink;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: auto;
+	display: none;
+}
+
+#Messages{
+	display: none;
+}
+
+#Addresses{
+	display: none;
+}
+
+#NewMessage{
+	display: none;
+}
+
+#NewAddresse{
+	display: none;
+}
